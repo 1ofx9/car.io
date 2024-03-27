@@ -1,0 +1,1 @@
+Develop a "Services" page for a car rental company, detailing the types of cars available for rent, rental rates, and booking options.
