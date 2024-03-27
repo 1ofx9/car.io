@@ -6,28 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Car.io</title>
     <link rel="stylesheet" href="./style.css" />
+
+    <!-- boxicons -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   </head>
   <body>
     <header class="header">
       <a href="#" class="logo">Car.io</a>
 
       <nav class="navbar">
-        <a href="#he5ro">Home</a>
-        <a id="book-now-nav-text" href="#">Book Now</a>
-        <a href="#">Services</a>
+        <a href="#home">Home</a>
+        <a href="#">Cars</a>
         <a href="#">Contact</a>
+        <a id="book-now-nav-text" href="#">Book Now</a>
         <button>Login</button>
       </nav>
     </header>
 
-    <div class="hero">
+    <div class="hero" id="home">
       <div class="hero-container">
-        <h1 class="hero-heading">
-          Looking for a vehicle? You're at the right place.
-        </h1>
+        <h1>Looking for a vehicle? You're at the right place.</h1>
         <p class="desc">
           Find affordable rental cars in <span>Pondicherry!</span>
         </p>
+      </div>
+    </div>
+
+    <div class="features">
+      <h1>Why choose <b>Car.io</b></h1>
+      <p class="sub-features">
+        Discover the features that make our car rental experience exceptional
+      </p>
+      <!-- features -->
+      <div class="box-container">
+        <div class="card">
+          <div class="iconbox" data-text="booking">
+            <h3>Flexible Booking Options</h3>
+          </div>
+          <div>
+            <p>
+              We offer flexible booking options to suit your needs, including
+              daily, weekly and monthly rentals.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="iconbox" data-text="rates">
+            <h3>Affordable Rates</h3>
+          </div>
+          <div>
+            <p>
+              Our car rental rates are competitive and affordable, so you can
+              enjoy a comfortable ride without breaking the bank.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="iconbox" data-text="support">
+            <h3>24/7 Customer Support</h3>
+          </div>
+          <div>
+            <p>
+              Our dedicated customer support team is available 24/7 to assist
+              you with any questions or concerns you may have.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="iconbox" data-text="cars">
+            <h3>Wide Range of Cars</h3>
+          </div>
+          <div>
+            <p>
+              We have a wide range of cars to choose from, including economy,
+              luxury, and family cars, so you can find the perfect car for your
+              needs.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </body>
