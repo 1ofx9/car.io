@@ -112,6 +112,7 @@ body {
   top: 438px;
   width: 100%;
   text-align: center;
+  margin-top: 40px;
 }
 
 .car-booking .car-booking-inputs {
@@ -235,17 +236,84 @@ body {
   color: #080a45;
 }
 /* Car types */
-.car-type-container {
+.car-showcase {
   position: absolute;
-  top: 800px;
+  top: 760px;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #f3f4f6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.car-showcase h3 {
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+}
+
+.car-showcase .content {
+  width: 20%;
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: 400ms;
+}
+
+.car-showcase .content:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transform: translate(0px, -8px);
+}
+
+.car-showcase .content img {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  object-fit: contain;
+}
+
+.car-showcase h6 {
+  margin: 10px;
+  font-size: 14px;
+  text-align: center;
+  color: #080a45;
+}
+
+.car-showcase span {
+  color: #616392;
+}
+
+.car-showcase .content button {
+  padding: 8px 16px;
+  font-size: 12px;
+  border-radius: 22px;
+  border-color: #080a45;
+  background: #080a45;
+  color: #ffffff;
+  font-weight: 600;
+  transition: 250ms ease;
+  border: 1px solid #080a45;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.car-showcase .content button:hover {
+  background-color: #f3f4f6;
+  color: #080a45;
 }
 
 /* Features */
 .features {
   position: absolute;
-  top: 1500px;
+  top: 1650px;
   width: 100%;
   color: #080a45;
 }
@@ -307,4 +375,51 @@ body {
 
 .box-container .card:hover .feature-text {
   opacity: 0%;
+}
+
+footer {
+  position: relative;
+  height: auto;
+  width: 100%;
+  top: 1980px;
+  left: 0;
+  padding-top: 40px;
+  font-family: "Montserrat";
+  color: #f3f4f6;
+}
+
+.footer-content {
+  padding: 20px 0;
+  background-color: #17194d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 48px;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0 20px 0;
+}
+
+.socials li {
+  margin: 0 10px;
 }

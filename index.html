@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Car.io</title>
     <link rel="stylesheet" href="./style.css" />
+
+    <!-- boxicons -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   </head>
   <body>
     <header class="header">
@@ -14,9 +17,9 @@
       <!-- Navbar -->
       <nav class="navbar">
         <a href="#">Home</a>
-        <a href="#">Cars</a>
-        <a href="#">Contact</a>
-        <a id="book-now-nav-text" href="#">Book Now</a>
+        <a href="#cars">Cars</a>
+        <a href="#contact">Contact</a>
+        <a id="book-now-nav-text" href="#city">Book Now</a>
         <button>Login</button>
       </nav>
     </header>
@@ -25,7 +28,7 @@
       <div class="hero-container">
         <h1>Looking for a vehicle? You're at the right place.</h1>
         <p class="desc">
-          Find affordable rental cars in <span>Pondicherry!</span>
+          Find affordable rental cars in <span id="city">Pondicherry!</span>
         </p>
       </div>
     </div>
@@ -52,7 +55,68 @@
         </div>
       </div>
 
-      <button class="find-cars">Find Cars</button>
+      <button id="cars" class="find-cars">Find Cars</button>
+    </div>
+
+    <!-- Cars -->
+    <div class="car-showcase">
+      <div class="content">
+        <img src="./assets/cars/Dacia_Duster_360x167.png" alt="dacia" />
+        <h3>Dacia Duster</h3>
+        <p>6 seats</p>
+        <h6>₹3250/<span>day</span></h6>
+        <button>select</button>
+      </div>
+      <div class="content">
+        <img src="./assets/cars/peugeot-3008-suv.png" alt="suv" />
+        <h3>Peugeot 3008</h3>
+        <p>4 seats</p>
+        <h6>₹5000/<span>day</span></h6>
+        <button>select</button>
+      </div>
+      <div class="content">
+        <img src="./assets/cars/renault-megane.png" alt="Renault" />
+        <h3>Renault Mégane</h3>
+        <p>4 seats</p>
+        <h6>₹3150/<span>day</span></h6>
+        <button>select</button>
+      </div>
+      <div class="content">
+        <img src="./assets/cars/peugeot-e-2008.png" alt="Peugeot" />
+        <h3>Peugeot 2008</h3>
+        <p>6 seats</p>
+        <h6>₹4700/<span>day</span></h6>
+        <button>select</button>
+      </div>
+
+      <div class="content">
+        <img src="./assets/cars/360x167_Volkswagen_Polo.png" alt="polo" />
+        <h3>Volkswagen Polo</h3>
+        <p>4 seats</p>
+        <h6>₹4000/<span>day</span></h6>
+        <button>select</button>
+      </div>
+      <div class="content">
+        <img src="./assets/cars/CC_Renault_Clio_360x167.png" alt="clio" />
+        <h3>Renault Clio</h3>
+        <p>6 seats</p>
+        <h6>₹3750/<span>day</span></h6>
+        <button>select</button>
+      </div>
+      <div class="content">
+        <img src="./assets/cars/360x167_px_-_Nissan_Qashqai.png" alt="nissan" />
+        <h3>Nissan Qashqai I-power</h3>
+        <p>4 seats</p>
+        <h6>₹4200/<span>day</span></h6>
+        <button>select</button>
+      </div>
+      <div class="content">
+        <img src="./assets/cars/Fiat_Egea_360x167.png" alt="fiat" />
+        <h3>Fiat Egea</h3>
+        <h6>₹4500/<span>day</span></h6>
+        <p>4 seats</p>
+        <button>select</button>
+      </div>
     </div>
 
     <!-- Features of CAR.IO -->
@@ -114,6 +178,20 @@
       </div>
     </div>
 
-    
+    <footer>
+      <div id="contact" class="footer-content">
+        <h3>CAR.IO</h3>
+        <p>cario@cabs.in</p>
+        <p>Find affordable rental cars in Pondicherry!</p>
+        <ul class="socials">
+          <li><box-icon name='facebook-circle' type='logo' color='#ffffff' ></box-icon></li>
+          <li><box-icon name='twitter' type='logo' color='#ffffff' ></box-icon></li>
+          <li><box-icon name='gmail' type='logo' color='#ffffff' ></box-icon></li>
+          <li><box-icon name='instagram-alt' type='logo' color='#ffffff' ></box-icon></li>
+        </ul>
+        <p>copyright &copy;2024 CAR.IO. designed by Team Cario</p>
+      </div>
+    </footer>
   </body>
+
 </html>
