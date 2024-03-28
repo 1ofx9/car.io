@@ -6,16 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Car.io</title>
     <link rel="stylesheet" href="./style.css" />
-
-    <!-- boxicons -->
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   </head>
   <body>
     <header class="header">
       <a href="#" class="logo">Car.io</a>
 
+      <!-- Navbar -->
       <nav class="navbar">
-        <a href="#home">Home</a>
+        <a href="#">Home</a>
         <a href="#">Cars</a>
         <a href="#">Contact</a>
         <a id="book-now-nav-text" href="#">Book Now</a>
@@ -32,6 +30,32 @@
       </div>
     </div>
 
+    <!-- Im very proud abt what i've done below :)-->
+    <div class="car-booking">
+      <h1>Ready for your ride?</h1>
+
+      <div class="car-booking-inputs">
+        <div class="pickup-loc">
+          <input type="text" id="pickup-loc-inp" required="" />
+          <label for="pickup-loc" class="pickup-loc-label">
+            Pickup Location
+          </label>
+          <div class="pickup-loc-underline"></div>
+        </div>
+
+        <div class="pickup-time">
+          <input type="text" id="pickup-time-inp" required="" />
+          <label for="pickup-time" class="pickup-time-label">
+            Pickup Date
+          </label>
+          <div class="pickup-time-underline"></div>
+        </div>
+      </div>
+
+      <button class="find-cars">Find Cars</button>
+    </div>
+
+    <!-- Features of CAR.IO -->
     <div class="features">
       <h1>Why choose <b>Car.io</b></h1>
       <p class="sub-features">
@@ -40,7 +64,7 @@
       <!-- features -->
       <div class="box-container">
         <div class="card">
-          <div class="iconbox" data-text="booking">
+          <div class="feature-text" data-text="booking">
             <h3>Flexible Booking Options</h3>
           </div>
           <div>
@@ -52,7 +76,7 @@
         </div>
 
         <div class="card">
-          <div class="iconbox" data-text="rates">
+          <div class="feature-text" data-text="rates">
             <h3>Affordable Rates</h3>
           </div>
           <div>
@@ -64,7 +88,7 @@
         </div>
 
         <div class="card">
-          <div class="iconbox" data-text="support">
+          <div class="feature-text" data-text="support">
             <h3>24/7 Customer Support</h3>
           </div>
           <div>
@@ -76,7 +100,7 @@
         </div>
 
         <div class="card">
-          <div class="iconbox" data-text="cars">
+          <div class="feature-text" data-text="cars">
             <h3>Wide Range of Cars</h3>
           </div>
           <div>
@@ -89,5 +113,7 @@
         </div>
       </div>
     </div>
+
+    
   </body>
 </html>

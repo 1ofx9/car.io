@@ -105,9 +105,147 @@ body {
   text-decoration: underline;
 }
 
+/* Car booking */
+
+.car-booking {
+  position: relative;
+  top: 438px;
+  width: 100%;
+  text-align: center;
+}
+
+.car-booking .car-booking-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin: 20px;
+}
+
+.car-booking h1 {
+  color: #080a45;
+  margin: 40px 0 80px 0;
+}
+
+/* Pickup location */
+/* good luck figuring this out i have no idea of what i've done here :p -cario */
+.pickup-loc {
+  position: relative;
+  width: 200px;
+}
+
+.pickup-loc input[type="text"] {
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 5px 0;
+  background-color: transparent;
+  outline: none;
+}
+
+.pickup-loc .pickup-loc-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ccc;
+  font-weight: 600;
+  transition: all 300ms ease;
+  pointer-events: none;
+}
+
+.pickup-loc input[type="text"]:focus ~ .pickup-loc-label,
+.pickup-loc input[type="text"]:valid ~ .pickup-loc-label {
+  top: -20px;
+  font-size: 16px;
+  color: #080a45;
+}
+
+.pickup-loc .pickup-loc-underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #080a45;
+  transform: scaleX(0);
+  transition: all 300ms ease;
+}
+
+/* Pickup date-time */
+.pickup-time {
+  position: relative;
+  width: 200px;
+}
+
+.pickup-time input[type="text"] {
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 5px 0;
+  background-color: transparent;
+  outline: none;
+}
+
+.pickup-time .pickup-time-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ccc;
+  font-weight: 600;
+  transition: all 300ms ease;
+  pointer-events: none;
+}
+
+.pickup-time input[type="text"]:focus ~ .pickup-time-label,
+.pickup-time input[type="text"]:valid ~ .pickup-time-label {
+  top: -20px;
+  font-size: 16px;
+  color: #080a45;
+}
+
+.pickup-time .pickup-time-underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #080a45;
+  transform: scaleX(0);
+  transition: all 300ms ease;
+}
+
+/* Find cars button */
+.car-booking .find-cars {
+  padding: 8px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  border-color: #080a45;
+  background: #080a45;
+  color: #ffffff;
+  font-weight: 600;
+  transition: 250ms ease;
+  border: 1px solid #080a45;
+  margin: 30px;
+}
+
+.find-cars:hover {
+  background-color: #f3f4f6;
+  color: #080a45;
+}
+/* Car types */
+.car-type-container {
+  position: absolute;
+  top: 800px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+/* Features */
 .features {
   position: absolute;
-  top: 438px;
+  top: 1500px;
   width: 100%;
   color: #080a45;
 }
@@ -150,7 +288,7 @@ body {
   padding: 5px;
 }
 
-.box-container .card .iconbox {
+.box-container .card .feature-text {
   border-radius: 6px;
   position: absolute;
   top: 0;
@@ -167,7 +305,6 @@ body {
   opacity: 100%;
 }
 
-.box-container .card:hover .iconbox {
+.box-container .card:hover .feature-text {
   opacity: 0%;
 }
-
