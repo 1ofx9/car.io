@@ -455,6 +455,7 @@ body {
   opacity: 0%;
 }
 
+/* footer */
 footer {
   position: relative;
   top: 2750px;
@@ -504,8 +505,8 @@ footer {
 }
 
 .footer-content a {
-  color: #080a45;
   text-decoration: underline;
+  color: #080a45;
 }
 
-
+/* Team Cario */
