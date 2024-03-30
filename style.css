@@ -389,7 +389,7 @@ body {
 /* Features */
 .features {
   position: absolute;
-  top: 2400px;
+  top: 2450px;
   width: 100%;
   color: #080a45;
 }
@@ -455,9 +455,9 @@ body {
 
 footer {
   position: relative;
+  top: 2750px;
   height: auto;
   width: 100%;
-  top: 2700px;
   left: 0;
   padding-top: 40px;
   font-family: "Montserrat";
