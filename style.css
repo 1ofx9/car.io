@@ -499,3 +499,10 @@ footer {
 .socials li {
   margin: 0 10px;
 }
+
+.footer-content a {
+  text-decoration: underline;
+  color: #000000;
+}
+
+
