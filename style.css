@@ -430,7 +430,6 @@ body {
   align-items: center;
   justify-content: center;
   padding: 5px;
-  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.25);
 }
 
 .box-container .card .feature-text {
@@ -448,7 +447,6 @@ body {
   overflow: hidden;
   transition: 500ms ease-in-out;
   opacity: 100%;
-  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.25);
 }
 
 .box-container .card:hover .feature-text {
