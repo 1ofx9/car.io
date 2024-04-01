@@ -9,11 +9,11 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: #ffffff;
-  min-height: 100vh;
 }
 .header {
   position: fixed;
@@ -361,7 +361,6 @@ body {
   gap: 25px;
   flex-wrap: wrap;
   width: 100%;
-  
 }
 
 .reviews-box {

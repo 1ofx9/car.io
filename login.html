@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="./login-style.css">
+    <!-- boxicons -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="https://subash2309.github.io/car.io/" class="logo">Car.io</a>
+  
+        <!-- Navbar -->
+        <nav class="navbar">
+          <a href="./index.html">Home</a>
+          <a href="./index.html">Cars</a>
+          <a href="./index.html">Contact</a>
+          <a id="book-now-nav-text" href="./index.html">Book Now</a>
+          <button onclick="window.open('./login.html')">Login</button>
+        </nav>
+      </header>
+    <!-- pop up -->
+    <div class="popup-login">
+        <div class="popup">
+          <div class="form">
+            <h2>Log In</h2>
+            <div class="form-element">
+              <label for="email">Email</label>
+              <input type="text" id="email" placeholder="Enter Email" />
+            </div>
+            <div class="form-element">
+              <label for="password">Password</label>
+              <input type="text" id="password" placeholder="Enter Password" />
+            </div>
+            <div class="form-element">
+              <input type="checkbox" id="remember-me" />
+              <label for="remember-me">Remember me</label>
+            </div>
+            <div class="form-element">
+              <button id="sign-in">Sign in</button>
+            </div>
+            <div class="form-element">
+              <a href="#">Forget password</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <!-- footer -->
+
+    <footer>
+        <div class="footer-content">
+          <!-- icons -->
+          <h3>CAR.IO</h3>
+          <p>Find affordable rental cars in Pondicherry!</p>
+          <ul class="socials">
+            <li>
+              <box-icon
+                name="facebook-circle"
+                type="logo"
+                color="#080a45"
+              ></box-icon>
+            </li>
+            <li>
+              <box-icon name="twitter" type="logo" color="#080a45"></box-icon>
+            </li>
+            <li>
+              <box-icon name="gmail" type="logo" color="#080a45"></box-icon>
+            </li>
+            <li>
+              <box-icon
+                name="instagram-alt"
+                type="logo"
+                color="#080a45"
+              ></box-icon>
+            </li>
+          </ul>
+          <p>
+            copyright &copy; 2024
+            <b><a href="https://github.com/SUBASH2309/car.io">CAR.IO</a></b
+            >. designed by Team Cario
+          </p>
+        </div>
+      </footer>
+</body>
+</html>
